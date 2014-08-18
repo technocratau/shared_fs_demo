@@ -1,0 +1,66 @@
+# TECHNOCRAT: Edit this .gitignore over the docroot/.gitignore that comes with Drupal.
+#             That is, you can leave Drupal's as default.
+
+# Drupal specific #
+docroot/sites/*/files
+docroot/sites/*/private
+docroot/sites/all/modules/dev
+settings.local.php
+sites.local.php
+FirePHPCore
+.sass-cache
+docroot/cache
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+
+# OS generated files #
+######################
+.DS_Store*
+REVISION
+ehthumbs.db
+Thumbs.db
+*.orig
+._*
+
+# Editor and IDE generated files #
+######################
+*.un~
+*.idea
+.project
+.metadata
+.settings
+.buildpath
+/nbproject
+*.sublime-project*
+*.sublime-workspace
+*.*~
+WS_FTP.LOG
+_notes
+_vti_*
+*.LCK
+*.TMP
+*~
+
+# Acquia #
+##########
+acquia-utils/*
+.ah_site_archive_imported
+docroot/sites/all/modules/contrib/acquia_connector/*
+
+docroot/sites/all/modules/custom/email_candidates/email_candidates.modulex
+# tc_vagrant #
+.vagrant
+Berksfile.lock
+dumps
+settings.vagrant.php

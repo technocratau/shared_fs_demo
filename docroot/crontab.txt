@@ -1,0 +1,2 @@
+5 * * * * wget -q http://state-election.racv.technocrat.com.au/cron.php?cron_key=RcHdHwvktxFtaz3dezOkKWHtb0GhsJVS7x0EyJZyyA4 >/dev/null 2>&1
+
